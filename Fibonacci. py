@@ -1,0 +1,22 @@
+
+def fibonacci(n):
+        if n == 0:
+             return 0
+        elif n ==1:
+             return 1
+        else:
+             return  fibonacci(n - 1) + fibonacci(n - 2)
+while True:
+    a = int(input("Enter the fibonacci value :"))
+    print(fibonacci(a))
+    
+    
+    choice = input("Do you want to calculate again (Yes/No): ").lower().strip()
+    
+    if choice == "no":
+        print("bye!")
+        break
+    elif choice == "yes":
+        print("going for next round\n")
+    else:
+        print("invalid choice, try again!")
