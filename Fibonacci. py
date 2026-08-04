@@ -1,4 +1,3 @@
-
 def fibonacci(n):
         if n == 0:
              return 0
@@ -11,7 +10,7 @@ while True:
     print(fibonacci(a))
     
     
-    choice = input("Do you want to calculate again (Yes/No): ").lower().strip()
+    choice = input("Do you want to calculate again \n(Yes/No): ").lower().strip()
     
     if choice == "no":
         print("bye!")
